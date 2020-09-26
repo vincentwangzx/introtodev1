@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Extra Light', sans-serif;
+}
+
+h1, h3{
+    font-family: Georgia, serif;
+
+  }
+p, a {
+    font-family: 'Franklin Gothic Extra Light', sans-serif;
+  }
+  
+a {
+    text-decoration: none;
+    color: white;
+    border-radius: .25em;
+    text-align: center;
+    display: inline-block;
+    transition: all .8s;
+}
+
+a:hover {
+    opacity: .6;
+  }
+  
+
+menu {
+background-color: black;
+font-size: 1em;
+min-height: 2.75em;
+display: flex;
+align-items: center;
+padding: 0 1 rem;
+}
+
+.ListItem {
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.Icon {
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.hero > * {
+    color: white;
+  }
+
+.hero > article > a {
+    padding: 1rem;
+    margin-top: 1.25rem;
+    background-color: grey;
+  }
+
+  .hero > h1 {
+    font-size: 2em;
+    padding-bottom: 0.25em;
+  }
+
+  .hero > article > p {
+    font-size: 1em;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  footer {
+    background-color: black;
+    padding: .75em;
+    color: white;
+    text-align: center;
+    font-size: .75em;
+  }

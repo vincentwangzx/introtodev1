@@ -1,0 +1,110 @@
+.hero {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/Melbourne.jpg') center;
+    background-size: cover;
+    padding: 4em 2em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.hobbies {
+  padding: 2em;
+}
+
+.hobbies > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.hobbies > ul > li {
+  border: 1px solid #E2E2E2;
+  border-radius: .5em;
+}
+
+.hobbies > ul > li > figure {
+  max-height: 180px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.hobbies > ul > li > figure > img {
+  width: 100%;
+}
+
+.hobbies > ul > li > figure > video {
+  width: 100%;
+}
+
+.hobbies > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+
+.hobbies > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1em;
+}
+
+.hobbies > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+  color: #666666;
+}
+
+.hobbies > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem;
+  background-color: grey;
+  align-self: end;
+}
+
+.Intro {
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 200px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Intro > h1, p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
