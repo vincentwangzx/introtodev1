@@ -71,7 +71,7 @@
 .hobbies > ul > li > a {
   padding: .5rem 1rem;
   margin: .5rem;
-  background-color: grey;
+  background-color: darkslategray;
   align-self: end;
 }
 
