@@ -53,6 +53,7 @@
   bottom: 0;
   background-color: rgba(0,0,0,.7);
   width: 100%;
+  height: 48px;
 }
 
 .hobbies > ul > li > figure > figcaption > h3 {
@@ -63,7 +64,7 @@
 
 .hobbies > ul > li > p {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.25;
   padding: 1rem .75rem;
   color: #666666;
 }
